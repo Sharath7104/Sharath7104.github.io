@@ -60,11 +60,11 @@ $(document).ready(function () {
 
 
 //change the file here
-document.getElementById("nav-resume").onclick = ()=>{
+document.getElementById("resume-button-1").onclick = ()=>{
   window.open("https://drive.google.com/file/d/1Us-g4Hm3J27WnSUVsEkXDtoEnSeSFMko/view?usp=share_link",`_blank`)
 }
 
-document.getElementById("about-resume").onclick = ()=>{
+document.getElementById("resume-button-").onclick = ()=>{
   window.open("https://drive.google.com/file/d/1Us-g4Hm3J27WnSUVsEkXDtoEnSeSFMko/view?usp=share_link",`_blank`)
 }
 
