@@ -81,7 +81,15 @@
              a career as a Backend Developer in a reputated firm.
 
           </p>
-          <a href="images/Sharath_S_Resume.pdf" id="resume-button-2" download target="_blank">Download CV</a>
+          <!-- <a href="images/Sharath_S_Resume.pdf" id="resume-button-2" download target="_blank">Download CV</a> -->
+          <a href="#" id="resume-button-2">Download CV</a>
+                <script>
+                  let resumeid = document.getElementById("resume-button-2")
+                    function myFunction() {
+                        window.location("images/Sharath_S_Resume.pdf");
+                    }
+                    resumeid.addEventListener("click", myFunction)
+                </script>
         </div>
       </div>
     </div>
