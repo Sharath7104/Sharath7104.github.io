@@ -83,7 +83,7 @@
           </p>
           <!-- <a href="images/Sharath_S_Resume.pdf" id="resume-button-2" download target="_blank">Download CV</a> -->
           <!-- <button id="resume-button-2" download>Download CV</button> -->
-          <button id="resume-button-2"><a href="images/Sharath_S_Resume.pdf" download target="_blank">Download CV</a></button>
+          <!-- <button id="resume-button-2" style="border:none"><a href="images/Sharath_S_Resume.pdf" style="margin-top: 0px;" download target="_blank">Download CV</a></button> -->
                 <!-- <script>
                   let resumeid = document.getElementById("resume-button-2")
                     function myDownloadFunction() {
@@ -92,6 +92,16 @@
                     }
                     
                 </script> -->
+                <button onclick="resume()" style="border: none;" id="resume-button-2" >
+                  <a id="resume-link-2" style="margin-top:0px" href="images/Sharath_S_Resume.pdf" target="_blank" download>
+                  Download Resume </a>
+                </button>
+
+                <script>
+                  function resume(){
+                       window.open("images/Sharath_S_Resume.pdf","_blank")
+                  }
+                </script>
         </div>
       </div>
     </div>
